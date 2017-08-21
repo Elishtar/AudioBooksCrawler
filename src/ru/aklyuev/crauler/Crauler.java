@@ -52,6 +52,7 @@ public class Crauler {
 
             PrintWriter newWriter = new PrintWriter(newBooks);
 
+
             newBookSet.forEach(bookName -> {
                 newWriter.write(bookName);
             });
